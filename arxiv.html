@@ -5,6 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weekly arXiv Summary</title>
+    
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['\\(', '\\)']],
+          displayMath: [['\\[', '\\]']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+     
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <style>
@@ -23,59 +36,58 @@
     <h1>Weekly arXiv Summary</h1>
     
     <p>This summary covers papers published on arXiv between **2025-10-06** and **2025-10-10** in the following categories: **math.DG, math.AP**.</p>
-    <p><em>Summary automatically generated on 2025-10-18 19:51:03 UTC</em></p>
+    <p><em>Summary automatically generated on 2025-10-18 19:57:56 UTC</em></p>
     
     <hr>
-    <h3>Mean Curvature Flow: Non-uniqueness, stochasticity, and phase-field approaches</h3>
+    <h3>Advances in Mean Curvature Flow: canonical vs non-canonical solutions, stochasticity, and phase-field limits</h3>
 <ul>
-<li><a href="http://arxiv.org/pdf/2510.06979v2">Non-uniqueness in Mean Curvature Flow: Non-canonical solutions via the   parabolic Allen--Cahn</a> by J. M. Daniels-Holgate</li>
+<li><a href="http://arxiv.org/pdf/2510.06979v2">Non-uniqueness in Mean Curvature Flow: Non-canonical solutions via the parabolic Allen--Cahn</a> by J. M. Daniels-Holgate</li>
 <li><a href="http://arxiv.org/pdf/2510.09383v2">Existence of martingale solutions for a stochastic weighted mean   curvature flow of graphs</a> by Qi Yan, Xiang-Dong Li</li>
-<li><a href="http://arxiv.org/pdf/2510.08287v1">On the Cahn-Hilliard equation with nonlinear diffusion: the non-convex   case</a> by Monica Conti, Stefania Gatti, Andrea Giorgini, Giulio Schimperna</li>
 </ul>
-<p>Allen–Cahn is used to construct non-outermost weak MCFs supported strictly inside fattening, giving the first closed, non-canonical integral Brakke motions and flows from rough (even fractal) data—highly relevant for phase-field approximations to MCF and singularity selection. The stochastic weighted MCF of graphs establishes martingale solutions and a small-noise limit, informing stability and compactness mechanisms under randomness. The Cahn–Hilliard results (non-convex diffusion) develop a Lojasiewicz–Simon framework and long-time convergence/stability—useful analytic machinery for phase-field models adjacent to $\varepsilon$-Allen--Cahn.</p>
-<h3>Inverse and Gauss curvature flows (anisotropic and non-smooth regimes)</h3>
+<p>Commentary: Daniels-Holgate gives the first construction of closed, non-canonical integral Brakke motions supported strictly inside fattening, obtained as limits of (\varepsilon)-Allen--Cahn flows. This pushes Ilmanen’s program and interacts directly with phase-field approximations of MCF and singularity formation, including flows from rough/fractal initial data. The stochastic graph MCF result establishes martingale solutions for weighted MCF in periodic settings and a small-noise limit, contributing to robustness of MCF under random perturbations—relevant for stability/selection issues in weak flows.</p>
+<h3>Inverse and anisotropic curvature flows; ancient solutions</h3>
 <ul>
 <li><a href="http://arxiv.org/pdf/2510.08168v1">Asymptotic behaviour of the weak inverse anisotropic mean curvature flow</a> by Chaoqun Gao, Yong Wei, Rong Zhou</li>
 <li><a href="http://arxiv.org/pdf/2510.05614v1">Ancient Gauss Curvature Flows of Bounded Width</a> by Beomjun Choi, Kyeongsu Choi, Dongjun Noh</li>
 <li><a href="http://arxiv.org/pdf/2510.04566v1">Inverse curvature flow of closed Legendre curves</a> by Takashi Kagaya, Masatomo Takahashi</li>
 </ul>
-<p>A uniform gradient estimate for anisotropic $p$-harmonic functions with constants stable as $p\to 1$ yields weak IAMCF well-posedness and asymptotics to Wulff shapes, extending Huisken–Ilmanen’s picture to anisotropy. New ancient compact solutions to Gauss curvature flow and $\alpha$-GCF ($\alpha&gt;\frac{1}{2}$) provide additional models for Type II behavior and “pancake/sausage” geometries relevant to singularity analysis. The inverse curvature flow for $\ell$-convex Legendre curves proves global existence, cusp monotonicity, and convergence to self-similar profiles, offering a finely controlled 1D testbed for inverse-flow techniques.</p>
-<h3>Geometric Measure Theory: currents, varifolds, and relaxation</h3>
+<p>Commentary: Gao–Wei–Zhou obtain (p)-harmonic gradient estimates uniform as (p\to 1) to control the weak IAMCF, showing asymptotics to expanding Wulff shapes—an anisotropic analogue of Huisken–Ilmanen’s result. The construction of pancake- and sausage-type ancient solutions for Gauss curvature and (\alpha)-Gauss curvature flows provides new ancient models for singularity analysis. The Legendre inverse curvature flow extends inverse curvature dynamics beyond regular curves, with global existence and classification of asymptotics to self-similar profiles.</p>
+<h3>Minimal surfaces and GMT: tools and structure</h3>
 <ul>
+<li><a href="http://arxiv.org/pdf/2510.04481v1">Minimal surfaces and comparison geometry</a> by Otis Chodosh</li>
 <li><a href="http://arxiv.org/pdf/2510.08360v1">The Space-Time Connectivity Theorem for Normal Currents</a> by Paolo Bonicatto, Filip Rindler, Harry Turnbull</li>
 <li><a href="http://arxiv.org/pdf/2510.05639v1">Young functions on varifolds. Part I. Functional analytic foundations</a> by Hsin-Chuang Chou</li>
 <li><a href="http://arxiv.org/pdf/2510.07085v1">Relaxation of Non-Convex Integral Functionals in the Multidimensional   Scalar Case</a> by Tommaso Bertin, Paulin Huguet</li>
-<li><a href="http://arxiv.org/pdf/2510.04672v1">Relaxation of quasi-convex functionals with variable exponent growth</a> by Giacomo Bertazzoni, Petteri Harjulehto, Peter Hästö, Elvira Zappale</li>
-<li><a href="http://arxiv.org/pdf/2510.04881v1">Riesz fractional gradient functionals defined on partitions:   nonlocal-to-local variational limits</a> by Stefano Almi, Maicol Caponi, Manuel Friedrich, Francesco Solombrino</li>
 </ul>
-<p>Space-time connectivity for normal currents constructs a “time-parametrized” connecting current witnessing weak* convergence—conceptually useful for approximating min-max sequences or flows by time-like deformations. The Young-functions-on-varifolds framework develops compactness and convergence for “multi-valued” data on varifolds, a promising new analytic language interfacing with Almgren’s multi-valued theory. The relaxation papers sharpen lower-semicontinuous envelopes for non/ quasi-convex energies (including variable-exponent growth) and $\Gamma$-limits as $s\to 1$ for fractional Riesz-gradient functionals on partitions—core tools for rigorous phase-field and nonlocal-to-local approximations of area/edge energies.</p>
-<h3>Free boundaries, partitions, and fracture</h3>
+<p>Commentary: Chodosh surveys applications of minimal surfaces in comparison geometry—useful perspective on leveraging min–max and stability to derive global geometric inequalities. The space-time connectivity theorem gives a time-parametrized current connecting weak* convergent normal currents, mirroring homotopies in varifold/Brakke settings and potentially informing convergence of min–max sweepouts. Chou develops a measure-theoretic framework for multiple-valued “functions on varifolds,” promising new analytic tools for fields on varying geometric supports. Bertin–Huguet provide sharp relaxation for non-convex integral energies (E[u]=\int_\Omega f(x,u,\nabla u)\,dx) under Lipschitz boundary data, clarifying lower-semicontinuous envelopes and Lavrentiev-gap avoidance—techniques directly applicable to phase-field and capillarity functionals.</p>
+<h3>Free-boundary and partition problems: Bernoulli, optimal partitions, and fracture</h3>
 <ul>
 <li><a href="http://arxiv.org/pdf/2510.09875v1">Vectorial Bernoulli Problems and Free Boundary Systems</a> by Giorgio Tortone, Bozhidar Velichkov</li>
 <li><a href="http://arxiv.org/pdf/2510.08241v1">A survey on the optimal partition problem</a> by Roberto Ognibene, Bozhidar Velichkov</li>
 <li><a href="http://arxiv.org/pdf/2510.08670v1">Hausdorff dimension of the singular set for Griffith almost-minimizers   in the plane</a> by Manuel Friedrich, Camille Labourie, Kerrek Stinson</li>
+<li><a href="http://arxiv.org/pdf/2510.04881v1">Riesz fractional gradient functionals defined on partitions:   nonlocal-to-local variational limits</a> by Stefano Almi, Maicol Caponi, Manuel Friedrich, Francesco Solombrino</li>
 </ul>
-<p>Two surveys consolidate techniques for vectorial Bernoulli/free-boundary systems and optimal partitions—closely linked to one-phase/multi-phase free-boundary regularity, monotonicity formulas, and blow-up analysis parallel to minimal-surface methods. For Griffith fracture in 2D, uniform rectifiability and $\dim_{\mathcal{H}}(\mathrm{Sing})&lt;1$ are proved, together with higher integrability—strong structural information mirroring Mumford–Shah theory and relevant for understanding singular sets of variational minimizers.</p>
-<h3>Isoperimetry and minimal surfaces</h3>
+<p>Commentary: The two surveys synthesize methods and open problems in vectorial free boundaries and optimal partitions—both tightly linked to multi-phase minimal interfaces and GMT regularity. Friedrich–Labourie–Stinson prove uniform rectifiability and (\dim_{\mathcal H}) of the singular set (&lt;1) for Griffith almost-minimizers, with higher integrability—parallels to Mumford–Shah and minimal-surface singularity bounds. The nonlocal-to-local (\Gamma)-limits for fractional gradient energies on partitions clarify when nonlocal multi-phase energies converge to local interfacial energies, relevant for phase-field approximations of multi-bubble/cluster problems.</p>
+<h3>Isoperimetric partitions and stability of multi-bubbles</h3>
 <ul>
 <li><a href="http://arxiv.org/pdf/2510.07078v1">Multi-Bubble Isoperimetric Problems</a> by Emanuel Milman</li>
-<li><a href="http://arxiv.org/pdf/2510.04481v1">Minimal surfaces and comparison geometry</a> by Otis Chodosh</li>
 </ul>
-<p>Milman’s survey synthesizes characterization and stability for multi-bubble minimizers, including soap-film partitions—natural higher-phase analogs of minimal surface problems. Chodosh highlights how minimal surface techniques inform comparison geometry, aligning with min-max constructions, rigidity, and scalar/curvature comparison phenomena.</p>
-<h3>Hyperbolic 3-manifolds: volume and boundary data</h3>
+<p>Commentary: A survey of characterization and stability for multi-bubble minimizers (soap-bubble clusters), focusing on quantitative isoperimetry and partition regularity. Closely connected to minimal cluster geometry, calibrations, and stability inequalities that underlie min–max constructions in multi-phase settings.</p>
+<h3>Hyperbolic 3-manifolds: volume, boundary data, and variational structures</h3>
 <ul>
 <li><a href="http://arxiv.org/pdf/2510.05627v1">Volume functions and boundary data of 3-dimensional hyperbolic manifolds</a> by Jean-Marc Schlenker</li>
 </ul>
-<p>A unified account of how renormalized/convex-core volume variations pair with boundary data on convex co-compact manifolds, clarifying duality between “conjugate” boundary variables. The first-variation formulas and uniqueness questions tie into minimal/CMC surface theory in hyperbolic 3-manifolds and variational formulations.</p>
-<h3>Inequalities for submanifolds and Willmore-type energies</h3>
+<p>Commentary: Reviews rigidity and parameterization by boundary data of convex cores and convex cocompact manifolds, emphasizing renormalized volume and its first variation. The “conjugate variables” viewpoint is variational and resonates with first-variation formulas for area/volume; potentially fruitful for studying minimal/CMC surfaces within hyperbolic manifolds and their moduli.</p>
+<h3>Variational PDEs and gradient-flow structures adjacent to phase transitions</h3>
+<ul>
+<li><a href="http://arxiv.org/pdf/2510.08287v1">On the Cahn-Hilliard equation with nonlinear diffusion: the non-convex   case</a> by Monica Conti, Stefania Gatti, Andrea Giorgini, Giulio Schimperna</li>
+<li><a href="http://arxiv.org/pdf/2510.07149v1">Derivation of the fourth-order DLSS equation with nonlinear mobility via   chemical reactions</a> by Alexander Mielke, André Schlichting, Artur Stephan</li>
+</ul>
+<p>Commentary: Conti–Gatti–Giorgini–Schimperna remove convexity of the gradient energy in a Cahn–Hilliard model and, via a tailored Łojasiewicz–Simon inequality, obtain uniqueness/smoothing in 2D and stability in 3D—techniques useful for phase-field models approximating interfaces. Mielke–Schlichting–Stephan derive DLSS-type fourth-order diffusion from reaction networks and identify the limiting gradient-flow structure; contributes to the toolbox for entropy/gradient-flow methods appearing in curvature-driven and phase-field evolutions.</p>
+<h3>Willmore and Sobolev inequalities on submanifolds</h3>
 <ul>
 <li><a href="http://arxiv.org/pdf/2510.08053v1">Fenchel-Willmore and Sobolev-type inequalities for submanifolds in   non-negatively curved manifolds</a> by Meng Ji, Kwok-Kun Kwong</li>
 </ul>
-<p>Links between Fenchel–Willmore inequalities and sharp Sobolev/log-Sobolev-type estimates for mean-convex submanifolds yield extensions to non-compact/boundary cases, with topological applications. Useful for secondary interests in Willmore-type energies and for constraints on curvature concentration along flows.</p>
-<h3>Gradient-flow structures in fourth-order PDE</h3>
-<ul>
-<li><a href="http://arxiv.org/pdf/2510.07149v1">Derivation of the fourth-order DLSS equation with nonlinear mobility via   chemical reactions</a> by Alexander Mielke, André Schlichting, Artur Stephan</li>
-</ul>
-<p>Derives DLSS and power-mobility variants via reaction networks and EDP convergence, identifying entropy-driven gradient structures and traveling waves with algebraic/compactly supported profiles. Methodologically relevant for understanding energy-dissipation principles and variational limits in higher-order diffusion equations adjacent to geometric flows.</p>
+<p>Commentary: Establishes a connection between Fenchel–Willmore-type energies and logarithmic Sobolev inequalities for mean-convex submanifolds in ambient spaces with nonnegative curvature and Euclidean volume growth, yielding sharp Sobolev-type inequalities and topological consequences. These inequalities interface with curvature functionals and can inform compactness/stability in variational problems involving mean curvature.</p>
 </body>
 </html>
