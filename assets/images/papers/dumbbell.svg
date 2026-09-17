@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <rect width="240" height="240" fill="#f7f6f1"/>
+  <g transform="rotate(-13 120 120)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- A closed surface, with a narrow neck and two rounded lobes. -->
+    <path d="M18 120 C16 94 32 72 55 72 C77 71 86 91 97 104 C109 116 128 115 141 101 C154 83 162 70 183 72 C207 75 222 95 221 122 C220 148 204 170 181 169 C160 170 151 155 140 139 C127 124 111 127 98 140 C84 158 74 171 55 168 C32 166 19 149 18 120Z" fill="#edf0e8" stroke="#34483e" stroke-width="2.1"/>
+    <!-- A light second pencil pass lends the silhouette a hand-sketched edge. -->
+    <path d="M19 115 C18 92 35 71 57 74 C77 74 88 95 96 106 M140 103 C155 82 165 70 185 74 C207 77 220 96 222 117 M220 128 C215 152 202 171 179 167 C157 166 151 152 141 138 M98 142 C82 159 72 172 53 169 C35 167 21 148 20 127" stroke="#34483e" stroke-width=".65" opacity=".46"/>
+    <!-- Sparse curved pencil lines describe the surface without a rigid mesh. -->
+    <path d="M24 105 C39 87 62 88 82 104 C108 124 132 126 153 105 C175 84 201 91 215 106" stroke="#839081" stroke-width=".95" opacity=".6"/>
+    <path d="M22 130 C42 150 64 150 87 135 C106 122 129 119 149 135 C171 151 199 151 215 135" stroke="#839081" stroke-width="1.1" opacity=".65"/>
+    <path d="M51 76 C36 94 34 139 52 164 M59 77 C72 99 74 140 61 164" stroke="#839081" stroke-width=".8" opacity=".48"/>
+    <path d="m30 143 5 7m-1-4 5 8m-1-5 5 9m-1-6 5 9m-1-6 6 9m-1-6 5 8 M195 157l-4 7m10-11-4 8m9-12-4 9m9-14-4 9" stroke="#71816f" stroke-width=".8" opacity=".5"/>
+    <!-- Equator of the right lobe: dashed at the back, continuous at the front. -->
+    <path d="M182 73 C160 75 158 163 181 168" stroke="#ae6043" stroke-width="1.7" stroke-dasharray="3.5 4.5"/>
+    <path d="M182 73 C204 78 204 156 181 168" stroke="#ae6043" stroke-width="2.8"/>
+    <path d="M184 76 C203 88 202 150 183 165" stroke="#ae6043" stroke-width=".6" opacity=".4"/>
+  </g>
+</svg>
