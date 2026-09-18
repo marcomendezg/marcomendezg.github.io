@@ -14,7 +14,7 @@ nav: research
   <figure class="portrait"><img src="{{ '/assets/images/marco-guaraco.jpg' | relative_url }}" alt="Marco Guaraco" width="500" height="703"><figcaption>Marco A. M. Guaraco</figcaption></figure>
 </section>
 <section class="papers-section section-rule" aria-labelledby="papers-title">
-  <div class="section-heading"><h2 id="papers-title">Papers &amp; preprints</h2><span class="eyebrow">Selected work</span></div>
+  <div class="section-heading"><h2 id="papers-title">Papers &amp; preprints</h2></div>
   <ul class="paper-list" role="list">
   {% for paper in site.data.papers %}
     {% assign arxiv_url = 'https://arxiv.org/abs/' | append: paper.arxiv %}
