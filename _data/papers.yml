@@ -1,6 +1,9 @@
+# Published entries use the journal year and length. Preprints use the first arXiv year and current PDF length.
 - title: "A two-dimensional Allen–Cahn theory for interfaces with boundary"
   authors: "With Marco Badran and Manuel del Pino"
   arxiv: "2607.29588"
+  year: 2026
+  pages: 112
   image: "/assets/images/papers/boundary-figures.gif?v=2"
   image_static: "/assets/images/papers/boundary.png"
   image_alt: "The Möbius surface, two three-dimensional graphs of model solutions, and the colorful cut-off regions diagram from the paper."
@@ -11,12 +14,16 @@
   journal: "Calculus of Variations and Partial Differential Equations 63, Article 133 (2024)"
   journal_url: "https://link.springer.com/article/10.1007/s00526-024-02740-6"
   arxiv: "2305.00363"
+  year: 2024
+  pages: 41
   image: "/assets/images/papers/plateau.svg"
   image_alt: "Original illustration of a catenoid spanning two circular boundaries."
   image_note: "Original mathematical illustration; not a figure from the paper."
 - title: "Mean curvature flow in homology and foliations of hyperbolic 3-manifolds"
   authors: "With Vanderson Lima and Franco Vargas Pallete"
   arxiv: "2105.07504"
+  year: 2021
+  pages: 31
   image: "/assets/images/papers/flow-figures.gif?v=2"
   image_static: "/assets/images/papers/flow-figure1.png"
   image_alt: "Figures from the paper illustrating mean curvature flow, covering spaces, multiplicity, marble trees, and foliations."
@@ -27,12 +34,16 @@
   journal: "Calculus of Variations and Partial Differential Equations 61, Article 71 (2022)"
   journal_url: "https://link.springer.com/article/10.1007/s00526-021-02106-2"
   arxiv: "2006.10607"
+  year: 2022
+  pages: 35
   image: "/assets/images/papers/ground-states.svg"
   image_alt: "Original illustration of a sphere with its equator highlighted."
   image_note: "Original mathematical illustration; not a figure from the paper."
 - title: "Multiplicity one and strictly stable Allen–Cahn minimal hypersurfaces"
   authors: "With Fernando C. Marques and André Neves"
   arxiv: "1912.08997"
+  year: 2019
+  pages: 29
   image: "/assets/images/papers/stable.svg"
   image_alt: "Original schematic of a distinguished interface and nearby sheets."
   image_note: "Original conceptual illustration; not a figure from the paper."
@@ -41,6 +52,8 @@
   journal: "Geometric and Functional Analysis 29, 382–410 (2019)"
   journal_url: "https://link.springer.com/article/10.1007/s00039-019-00489-1"
   arxiv: "1804.04243"
+  year: 2019
+  pages: 29
   image: "/assets/images/papers/weyl.svg"
   image_alt: "Original schematic of spectral levels and a power-law curve."
   image_note: "Original illustration of spectral growth; not numerical data or a figure from the paper."
@@ -49,6 +62,8 @@
   journal: "Calculus of Variations and Partial Differential Equations 57, Article 101 (2018)"
   journal_url: "https://link.springer.com/article/10.1007/s00526-018-1379-x"
   arxiv: "1608.06575"
+  year: 2018
+  pages: 42
   image: "/assets/images/papers/dumbbell.svg"
   image_alt: "Hand-drawn illustration of a dumbbell surface with an equator marked on the right lobe."
   image_note: "Original mathematical illustration; not a figure from the paper."
@@ -57,6 +72,8 @@
   journal: "Journal of Differential Geometry 108(1), 91–133 (2018)"
   journal_url: "https://doi.org/10.4310/jdg/1513998031"
   arxiv: "1505.06698"
+  year: 2018
+  pages: 43
   image: "/assets/images/papers/minmax.png"
   image_alt: "A sweepout of a manifold, from Figure 2 of the paper."
   image_note: "Figure 2, page 17 of the preprint: a sweepout of the manifold."

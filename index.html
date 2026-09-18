@@ -23,6 +23,7 @@ nav: research
       <div class="paper-body">
         <h3><a href="{{ paper.journal_url | default: arxiv_url }}">{{ paper.title }}</a></h3>
         <p>{{ paper.authors }}</p>
+        <p class="paper-meta">{{ paper.year }} <span aria-hidden="true">·</span> {{ paper.pages }} pages</p>
         {% if paper.journal %}<p class="paper-meta"><a href="{{ paper.journal_url }}">{{ paper.journal }}</a></p>{% else %}<p class="paper-meta">arXiv:{{ paper.arxiv }}</p>{% endif %}
       </div>
       <div class="paper-links">
