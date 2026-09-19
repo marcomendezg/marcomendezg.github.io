@@ -1,0 +1,60 @@
+- title: "The Plateau Problem via the Allen–Cahn Equation"
+  year: 2024
+  date: "5–7 November"
+  type: "Minicourse · 3 lectures"
+  collaborator: "With Stephen Lynch"
+  venue: "IMAG · University of Granada"
+  recordings:
+    - label: "Part I"
+      url: "https://www.youtube.com/watch?v=l8B2AoRx4js"
+    - label: "Part II"
+      url: "https://www.youtube.com/watch?v=eOHlMQYWTFI"
+    - label: "Part III"
+      url: "https://www.youtube.com/watch?v=tCcuxTVBMzE"
+- title: "Mean curvature flow in homology and foliations of hyperbolic 3-manifolds"
+  year: 2021
+  date: "1 June"
+  type: "Research talk"
+  venue: "IMUS · University of Seville · Geometric Analysis in the Large"
+  recordings:
+    - label: "Watch talk"
+      url: "https://www.youtube.com/watch?v=oc0-Ag0qsHY"
+- title: "Superficies mínimas y transiciones de fase"
+  year: 2020
+  date: "6 November"
+  type: "Research talk · Spanish"
+  venue: "Seminario Internacional de Matemática"
+  recordings:
+    - label: "Watch talk"
+      url: "https://www.youtube.com/watch?v=WUojqhRFHWE"
+- title: "Weyl law for the phase transition spectrum and density of limit-interfaces"
+  year: 2018
+  date: "5 November"
+  type: "Research talk"
+  venue: "Institute for Advanced Study · Workshop on Mean Curvature and Regularity"
+  recordings:
+    - label: "Watch talk"
+      url: "https://www.youtube.com/watch?v=b_J5FmYneOI"
+- title: "Minimal hypersurfaces and phase transitions"
+  year: 2018
+  date: "1 October"
+  type: "Short talk"
+  venue: "Institute for Advanced Study · Short Talks by Postdoctoral Members"
+  recordings:
+    - label: "Watch talk"
+      url: "https://www.ias.edu/video/postdoc/2018/1001-MarcoMendezGuaraco"
+- title: "Phase transitions and minimal surfaces"
+  year: 2017
+  type: "Minicourse · 2 lectures"
+  venue: "Fourth Taiwan International Conference on Geometry"
+  recordings:
+    - label: "Lecture 1 · A"
+      url: "https://www.youtube.com/watch?v=akRASwcChzA"
+    - label: "Lecture 1 · B"
+      url: "https://www.youtube.com/watch?v=3-IEnN8qZw0"
+    - label: "Lecture 2 · A"
+      url: "https://www.youtube.com/watch?v=yUYif8F42Co"
+    - label: "Lecture 2 · B"
+      url: "https://www.youtube.com/watch?v=1I3ddl76NBY"
+    - label: "Lecture 2 · C"
+      url: "https://www.youtube.com/watch?v=401fHE38Wec"

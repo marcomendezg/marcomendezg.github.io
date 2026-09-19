@@ -44,8 +44,8 @@
   arxiv: "1912.08997"
   year: 2019
   pages: 29
-  image: "/assets/images/papers/stable.svg"
-  image_alt: "Original schematic of a distinguished interface and nearby sheets."
+  image: "/assets/images/papers/stable.svg?v=2"
+  image_alt: "A flat central interface, with thin curves concave downward above it and concave upward below it, and arrows pointing toward the interface."
   image_note: "Original conceptual illustration; not a figure from the paper."
 - title: "The Weyl law for the phase transition spectrum and density of limit interfaces"
   authors: "With Pedro Gaspar"

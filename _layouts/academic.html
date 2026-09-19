@@ -12,7 +12,7 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header"><div class="header-inner">
     <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Marco Guaraco, home">Marco Guaraco</a>
-    <nav aria-label="Main navigation"><a href="{{ '/' | relative_url }}" {% if page.nav == 'research' %}aria-current="page"{% endif %}>Research</a><a href="{{ '/teaching/' | relative_url }}" {% if page.nav == 'teaching' %}aria-current="page"{% endif %}>Teaching</a></nav>
+    <nav aria-label="Main navigation"><a href="{{ '/' | relative_url }}" {% if page.nav == 'research' %}aria-current="page"{% endif %}>Research</a><a href="{{ '/talks/' | relative_url }}" {% if page.nav == 'talks' %}aria-current="page"{% endif %}>Talks</a><a href="{{ '/teaching/' | relative_url }}" {% if page.nav == 'teaching' %}aria-current="page"{% endif %}>Teaching</a></nav>
   </div></header>
   <main id="main" class="page-shell">{{ content }}</main>
   <footer class="site-footer"><div class="footer-inner"><div><a class="footer-name" href="{{ '/' | relative_url }}">Marco Guaraco</a><p>Department of Mathematics<br>Imperial College London</p></div><a class="footer-email" href="mailto:guaraco@imperial.ac.uk">guaraco@imperial.ac.uk <span aria-hidden="true">↗</span></a></div></footer>
