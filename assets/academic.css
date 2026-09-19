@@ -15,3 +15,6 @@ body{min-height:100vh;display:flex;flex-direction:column}.page-shell{flex:1}.wor
 @media(max-width:600px){.talks-hero{padding:42px 0 32px}.talks-hero h1{letter-spacing:-1.5px}.talks-hero>p{font-size:15px;margin-top:17px}.talk{grid-template-columns:1fr;gap:18px;padding:26px 0 30px}.talk-date{flex-direction:row;align-items:baseline;gap:13px}.talk-year{font-size:25px}.talk-body h2{font-size:25px}.talk-list{padding-bottom:40px}}
 @media(max-width:600px){.header-inner{flex-direction:column;align-items:flex-start;gap:2px;padding:13px 0 5px}nav{gap:28px}nav a{min-height:40px}nav a[aria-current=page]:after{bottom:3px}}
 .hero-copy{container-type:inline-size}.hero h1{font-size:min(94px,18cqw)}.hero h1 .name-line{white-space:nowrap}.hero h1 .name-initials{font-size:.75em}
+
+.hero h1 .accent{display:inline-block;margin-left:.25rem;letter-spacing:0}
+.hero h1 .name-dot-close{margin-left:.0625rem}
