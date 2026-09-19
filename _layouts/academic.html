@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} · Marco Guaraco</title>
-  <meta name="description" content="Marco Guaraco, mathematician at Imperial College London. Research in geometric analysis, minimal surfaces, and partial differential equations. Papers and teaching resources.">
+  <title>{% if page.search_title %}{{ page.search_title | escape }}{% else %}{{ page.title | escape }} · {{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/academic.css' | relative_url }}">
 </head>

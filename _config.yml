@@ -1,3 +1,5 @@
 title: Marco Guaraco
-description: Personal website of Marco Guaraco, mathematician at Imperial College London.
+description: Marco Guaraco, mathematician at Imperial College London. Research in geometric analysis, minimal surfaces, and partial differential equations.
+url: https://guaraco.com
+baseurl: ""
 theme: minima # A clean default theme
