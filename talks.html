@@ -18,7 +18,7 @@ permalink: /talks/
       {% if talk.collaborator %}<p class="talk-collaborator">{{ talk.collaborator }}</p>{% endif %}
       <p class="talk-venue">{{ talk.venue }}</p>
       <div class="talk-recordings" aria-label="Recordings: {{ talk.title | escape }}">
-        {% for recording in talk.recordings %}<a href="{{ recording.url }}" aria-label="{{ talk.title | escape }}: {{ recording.label }}">{{ recording.label }} <span aria-hidden="true">↗</span></a>{% endfor %}
+        {% for recording in talk.recordings %}<a href="{{ recording.url }}" aria-label="{{ talk.title | escape }}: {{ recording.label }}" target="_blank" rel="noopener noreferrer">{{ recording.label }} <span aria-hidden="true">↗</span></a>{% endfor %}
       </div>
     </div>
   </li>

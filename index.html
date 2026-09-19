@@ -9,7 +9,7 @@ nav: research
     <h1 id="intro-title">Marco <span>Guaraco<span class="accent">.</span></span></h1>
     <p class="position">Assistant Professor in Pure Mathematics</p>
     <p class="intro">I work at the intersection of geometry and analysis, studying minimal surfaces, variational methods, and partial differential equations.</p>
-    <div class="contact-links"><a href="mailto:guaraco@imperial.ac.uk">Get in touch <span aria-hidden="true">↗</span></a><a href="https://profiles.imperial.ac.uk/guaraco">Imperial profile <span aria-hidden="true">↗</span></a></div>
+    <div class="contact-links"><a href="mailto:guaraco@imperial.ac.uk">Get in touch <span aria-hidden="true">↗</span></a><a href="https://profiles.imperial.ac.uk/guaraco" target="_blank" rel="noopener noreferrer">Imperial profile <span aria-hidden="true">↗</span></a></div>
   </div>
   <figure class="portrait"><img src="{{ '/assets/images/marco-guaraco.jpg' | relative_url }}" alt="Marco Guaraco" width="500" height="703"><figcaption>Marco A. M. Guaraco</figcaption></figure>
 </section>
@@ -21,14 +21,14 @@ nav: research
     <li class="paper">
       <div class="paper-thumbnail" title="{{ paper.image_note | escape }}"><picture>{% if paper.image_static %}<source media="(prefers-reduced-motion: reduce)" srcset="{{ paper.image_static | relative_url }}">{% endif %}<img src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt | escape }}" width="112" height="112" loading="lazy" decoding="async"></picture></div>
       <div class="paper-body">
-        <h3><a href="{{ paper.journal_url | default: arxiv_url }}">{{ paper.title }}</a></h3>
+        <h3><a href="{{ paper.journal_url | default: arxiv_url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a></h3>
         <p>{{ paper.authors }}</p>
         <p class="paper-meta">{{ paper.year }} <span aria-hidden="true">·</span> {{ paper.pages }} pages</p>
-        {% if paper.journal %}<p class="paper-meta"><a href="{{ paper.journal_url }}">{{ paper.journal }}</a></p>{% else %}<p class="paper-meta">arXiv:{{ paper.arxiv }}</p>{% endif %}
+        {% if paper.journal %}<p class="paper-meta"><a href="{{ paper.journal_url }}" target="_blank" rel="noopener noreferrer">{{ paper.journal }}</a></p>{% else %}<p class="paper-meta">arXiv:{{ paper.arxiv }}</p>{% endif %}
       </div>
       <div class="paper-links">
-        {% if paper.journal_url %}<a class="paper-link" href="{{ paper.journal_url }}" aria-label="Journal version: {{ paper.title | escape }}">Journal <span aria-hidden="true">↗</span></a>{% endif %}
-        <a class="paper-link" href="{{ arxiv_url }}" aria-label="arXiv version: {{ paper.title | escape }}">arXiv <span aria-hidden="true">↗</span></a>
+        {% if paper.journal_url %}<a class="paper-link" href="{{ paper.journal_url }}" aria-label="Journal version: {{ paper.title | escape }}" target="_blank" rel="noopener noreferrer">Journal <span aria-hidden="true">↗</span></a>{% endif %}
+        <a class="paper-link" href="{{ arxiv_url }}" aria-label="arXiv version: {{ paper.title | escape }}" target="_blank" rel="noopener noreferrer">arXiv <span aria-hidden="true">↗</span></a>
       </div>
     </li>
   {% endfor %}
