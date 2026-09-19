@@ -6,3 +6,5 @@
 
 - Use “Marco A. M. Guaraco” consistently as the website’s display name and in search metadata.
 - Show changes in the local preview first. Do not push or publish changes until Marco explicitly approves publishing them.
+- Verify talk listings against organiser programmes, institutional seminar announcements, recordings, or conference reports. Check the speaker, year, event name and presentation type; attendance or a mention in another speaker's abstract is not evidence of a talk. Keep CV-only or ambiguous candidates outside the displayed list until confirmed.
+- In Selected talks, display years and event/venue names only, without individual dates or talk titles.

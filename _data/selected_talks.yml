@@ -1,0 +1,209 @@
+# Selected appearances, grouped by year only; no ordering within a year is implied.
+# URLs identify organiser programmes, seminar announcements, reports or recordings.
+# CV-only candidates are withheld in _archive/talks-pending-verification.yml.
+# Evidence fields are research notes and are not displayed on the website.
+---
+- year: 2026
+  event: Geometry Webinar AmSur / AmSul
+  venue: Online
+  url: https://researchseminars.org/seminar/AmSurAmSulGeometry
+- year: 2026
+  event: Seminário de Geometria Diferencial
+  venue: IMPA, Rio de Janeiro, Brazil
+  url: https://seminarios.impa.br/visualizar/10511
+- year: 2026
+  event: XXII Escola de Geometria Diferencial · Plenary lecture
+  venue: Teresina, Brazil
+  url: https://egd.ufpi.edu.br/scientific-program/speakers
+- year: 2026
+  event: European School in Differential Geometry
+  venue: L’Aquila, Italy
+  url: https://sites.google.com/view/esdg-aq26/program
+- year: 2025
+  event: UK–Japan Workshop on Nonlinear PDEs
+  venue: ICMS, Edinburgh
+  url: https://icms.ac.uk/activities/workshop/uk-japan-workshop-on-nonlinear-pdes-singularities-and-asymptotic-patterns-in-fluids-chemotaxis-and-geometric-pdes/
+- year: 2025
+  event: 'Masterclass: Geometry of Phase Transitions'
+  venue: University of Copenhagen
+  url: https://www.math.ku.dk/english/calendar/events/geometry-of-phase-transitions/
+- year: 2025
+  event: Recent Advances in Geometric Analysis
+  venue: University of Granada
+  url: https://wpd.ugr.es/~geometry/seminar/en/historial/index/2025
+- year: 2024
+  event: Geometric Analysis Student Seminar · Lecture series
+  url: https://wpd.ugr.es/~imag/analysis-and-geometry-students-seminar/
+  venue: IMAG, University of Granada
+- year: 2024
+  event: Séminaire de géométrie
+  venue: IMJ-PRG, Université Paris Cité
+  url: https://www.imj-prg.fr/gestion/evenement/affEvenement/47
+- year: 2023
+  event: Geometric Flows and Applications
+  venue: ICMS, Edinburgh
+  url: https://icms.ac.uk/archive/workshop/geometric-flows-and-applications/
+- year: 2022
+  event: Jornada de Geometría
+  venue: IMAG, University of Granada
+  url: https://canal.ugr.es/actividad/jornada-de-geometria/
+- year: 2022
+  event: Analysis Seminar
+  venue: ETH Zürich
+  url: https://math.ethz.ch/news-and-events/events/research-seminars/analysis-seminar.html/1000?s=hs22
+- year: 2022
+  event: Geometric Partial Differential Equations
+  venue: University of Warwick
+  url: https://warwick.ac.uk/fac/sci/maths/research/events/2022-2023/geometricpde/
+- year: 2022
+  event: Topics in Geometry
+  venue: London School of Geometry and Number Theory
+  url: https://www.homepages.ucl.ac.uk/~ucaheps/LSGNTtopics21.html
+- year: 2021
+  event: IMUS · University of Seville · Geometric Analysis in the Large
+  url: https://www.youtube.com/watch?v=oc0-Ag0qsHY
+- year: 2021
+  event: New Trends in Geometric PDEs
+  venue: University of Münster · Online
+  url: https://www.uni-muenster.de/MathematicsMuenster/events/2021/new-trends-in-geometric-PDEs.shtml
+- year: 2021
+  event: Joint ICL/UCL Pure Analysis and PDEs Seminar
+  venue: Imperial College London and University College London
+  url: https://www.imperial.ac.uk/events/132075/joint-icl-ucl-pure-analysis-and-pdes-seminar-marco-mendez-guaraco-imperial-multiplicity-one-of-generic-stable-allen-cahn-minimal-hypersurfaces/
+- year: 2021
+  event: 3º Encontro em Geometria Diferencial no Rio Grande do Sul
+  venue: Online
+  url: https://sites.google.com/view/encontrogdrs/edicoes-anteriores/2021
+  evidence: Organiser archive explicitly lists Marco as a speaker, 9–10 September
+    2021.
+- year: 2020
+  event: Seminario Internacional de Matemática
+  url: https://www.youtube.com/watch?v=WUojqhRFHWE
+- year: 2020
+  event: B.O.W.L. Geometry Seminar
+  venue: Brussels, Oxford, Warwick and London · Online
+  url: https://geometry.ulb.ac.be/bowl/marco-guaraco-chicago/
+- year: 2019
+  event: IX Workshop on Differential Geometry · Minicourse
+  venue: Maceió, Brazil
+  source: https://math.uchicago.edu/~guaraco/CV.pdf
+  url: https://geometry-maceio.sciencesconf.org/resource/page/id/19.html
+- year: 2019
+  event: RTG Conference on Geometric Analysis and Diversity in Mathematics
+  venue: Princeton University
+  url: https://web.math.princeton.edu/conference/RTG-2019/
+  evidence: Listed in the Diversity in Mathematics Festival on 21 June, not in the
+    research mini-conference speaker list.
+- year: 2019
+  event: International Congress on Geometric Analysis
+  venue: University of Cádiz
+  url: https://wpd.ugr.es/~imag/dc2019/
+- year: 2019
+  event: Geometry and PDE in front of the Alhambra
+  venue: University of Granada
+  source: https://math.uchicago.edu/~guaraco/CV.pdf
+  url: https://www.ugr.es/~daruiz/geometry-and-pde/book-of-abstracts.pdf
+- year: 2018
+  event: Institute for Advanced Study · Workshop on Mean Curvature and Regularity
+  url: https://www.youtube.com/watch?v=b_J5FmYneOI
+- year: 2018
+  event: Institute for Advanced Study · Short Talks by Postdoctoral Members
+  url: https://www.ias.edu/video/postdoc/2018/1001-MarcoMendezGuaraco
+- year: 2018
+  event: Analysis Seminar
+  venue: ETH Zürich
+  source: https://math.uchicago.edu/~guaraco/CV.pdf
+  url: https://math.ethz.ch/news-and-events/events/research-seminars/analysis-seminar.ethz_search.html?s=fs18
+- year: 2018
+  event: Joint Mathematics Meetings · AMS Special Session on Geometric Analysis
+  venue: San Diego
+  source: https://math.uchicago.edu/~guaraco/CV.pdf
+  url: https://jointmathematicsmeetings.org/meetings/national/jmm2018/1135_san_diego_prog.pdf
+- year: 2018
+  event: Geometry Seminar
+  venue: University of Granada
+  url: https://wpd.ugr.es/~geometry/seminar/es/historial/index/2018
+- year: 2018
+  event: Topics in Minimal Surface Theory
+  venue: ETH Zürich
+  url: https://metaphor.ethz.ch/x/2018/fs/401-4530-18L/
+- year: 2018
+  event: Geometry, Topology & Dynamics Seminar
+  venue: University of Illinois Chicago
+  url: https://www2.math.uic.edu/persisting_utilities/seminars/view_seminar?id=5202
+- year: 2018
+  event: Geometrie workshop
+  venue: Mathematisches Forschungsinstitut Oberwolfach, Germany
+  url: https://ems.press/content/serial-article-files/46749
+  evidence: 'Oberwolfach Report 27/2018, 10–16 June: introduction describes his talk;
+    abstract on printed page 1664.'
+- year: 2017
+  event: Fourth Taiwan International Conference on Geometry
+  url: https://www.youtube.com/watch?v=akRASwcChzA
+- year: 2017
+  event: Differential Geometry & Geometric Analysis Seminar
+  venue: Princeton University
+  source: https://math.uchicago.edu/~guaraco/CV.pdf
+  url: https://www.math.princeton.edu/events/some-geometric-aspects-allen-cahn-equation-2017-05-03t190005
+- year: 2017
+  event: Mathematics REU · Special talk
+  venue: University of Chicago
+  url: https://math.uchicago.edu/~may/REU2017/V2017Sched56.pdf
+  evidence: Linked from the official REU 2017 page as the 2017 weeks 5–6 schedule.
+    Lists Marco Mendez-Guaraco on Thursday 27 July. PDF heading erroneously says 2016;
+    weekdays and parent archive identify 2017.
+- year: 2016
+  event: Topology Seminar · Joint Geometry/Topology day
+  venue: Princeton University
+  url: https://www.math.princeton.edu/events/tba-marco-aurelio-mendez-guaraco-2016-02-05t180000
+  evidence: Official event lists Marco Aurelio Mendez Guaraco as speaker on 5 February
+    2016.
+- year: 2016
+  event: Nonlinear PDEs @ IMPA · Short communication
+  venue: IMPA, Rio de Janeiro
+  source: https://math.uchicago.edu/~guaraco/CV.pdf
+  url: https://impa.br/evento/nonlinear-pdes-impa-2/
+  evidence: Listed under Short Communications; M. Guaraco also appears in https://impa.br/wp-content/uploads/2016/12/Programa_NLPDE.pdf
+- year: 2016
+  event: XIX School on Differential Geometry · Contributed talk
+  venue: IMPA, Rio de Janeiro, Brazil
+  source: https://math.uchicago.edu/~guaraco/CV.pdf
+  url: https://impa.br/evento/xix-school-on-differential-geometry/
+  evidence: Listed under Contributed Talk; abstract at https://impa.br/wp-content/uploads/2016/12/Guaraco.pdf
+- year: 2016
+  event: VI Workshop on Differential Geometry
+  venue: Maceió, Brazil
+  source: https://math.uchicago.edu/~guaraco/CV.pdf
+  url: https://geometry-maceio.sciencesconf.org/resource/page/id/9.html
+- year: 2015
+  event: Geometric Analysis and PDE Seminar
+  venue: University of Cambridge
+  source: https://math.uchicago.edu/~guaraco/CV.pdf
+  url: https://talks.cam.ac.uk/talk/index/62692
+- year: 2015
+  event: Differential Geometry & Geometric Analysis Seminar
+  venue: Princeton University
+  url: https://www.math.princeton.edu/events/min-max-phase-transitions-and-minimal-hypersurfaces-2015-11-06t214511
+- year: 2015
+  event: Differential Geometry Seminar
+  venue: IMPA, Rio de Janeiro
+  source: https://math.uchicago.edu/~guaraco/CV.pdf
+  url: https://seminarios.impa.br/visualizar/6427
+  evidence: IMPA archive lists Marco Guaraco on 1 September 2015.
+- year: 2015
+  event: Summer School on Multiscale and Geometric Analysis
+  venue: Hokkaido University
+  source: https://math.uchicago.edu/~guaraco/CV.pdf
+  url: https://www.math.sci.hokudai.ac.jp/sympo/150727/index_en.html
+  evidence: Official Hokkaido programme uses this event name and lists Marco Guaraco
+    (IMPA) on 28 July 2015, 14:30–15:30. A single talk, not a minicourse.
+- year: 2015
+  event: Bay Area Differential Geometry Seminar
+  venue: MSRI, Berkeley
+  source: https://math.uchicago.edu/~guaraco/CV.pdf
+  url: https://www.slmath.org/ckeditor_assets/attachments/321/badgdecember2015.pdf
+- year: 2013
+  event: Colóquio dos Alunos
+  venue: IMPA, Rio de Janeiro, Brazil
+  url: https://seminarios.impa.br/visualizar/2399
+  evidence: IMPA archive lists Marco Aurelio Méndez Guaraco on 8 November 2013.

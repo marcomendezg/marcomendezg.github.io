@@ -1,12 +1,12 @@
 ---
 layout: academic
 title: Talks
-description: Recorded research talks and minicourses by Marco A. M. Guaraco on minimal surfaces, the Allen–Cahn equation, and geometric analysis.
+description: Recordings and selected talks by Marco A. M. Guaraco on minimal surfaces, the Allen–Cahn equation, and geometric analysis.
 nav: talks
 permalink: /talks/
 ---
 <section class="talks-hero" aria-labelledby="talks-title">
-  <h1 id="talks-title">Talks &amp; minicourses</h1>
+  <h1 id="talks-title">Recordings</h1>
   <p>Recordings of research talks and lecture series.</p>
 </section>
 <ul class="talk-list" role="list">
@@ -25,3 +25,20 @@ permalink: /talks/
   </li>
   {% endfor %}
 </ul>
+<section class="selected-talks section-rule" aria-labelledby="selected-talks-title">
+  <h2 id="selected-talks-title">Selected talks</h2>
+  {% assign talk_years = site.data.selected_talks | group_by: 'year' | sort: 'name' | reverse %}
+  {% for group in talk_years %}
+  <div class="talk-year-group">
+    <h3>{{ group.name }}</h3>
+    <ul class="selected-talk-list" role="list">
+      {% for talk in group.items %}
+      <li>
+        <p class="selected-talk-event">{% if talk.url %}<a href="{{ talk.url }}" target="_blank" rel="noopener noreferrer">{{ talk.event }} <span aria-hidden="true">↗</span></a>{% else %}{{ talk.event }}{% endif %}</p>
+        {% if talk.venue %}<p class="selected-talk-venue">{{ talk.venue }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>
