@@ -1,4 +1,12 @@
 # Published entries use the journal year and length. Preprints use the first arXiv year and current PDF length.
+- title: "Integral curvature estimates and geodesic limits for stable abelian Higgs fields"
+  authors: "With Marco Badran and Aria Halavati"
+  arxiv: "2609.21893"
+  year: 2026
+  pages: 28
+  image: "/assets/images/papers/geodesic-limits.svg"
+  image_alt: "A green self-intersecting curve with an identical terracotta curve slightly offset behind it."
+  image_note: "Original schematic illustration; not a figure from the paper."
 - title: "A two-dimensional Allen–Cahn theory for interfaces with boundary"
   authors: "With Marco Badran and Manuel del Pino"
   arxiv: "2607.29588"
