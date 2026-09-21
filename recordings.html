@@ -1,0 +1,27 @@
+---
+layout: academic
+title: Recordings
+description: Recorded research talks and lecture series by Marco A. M. Guaraco on minimal surfaces, the Allen–Cahn equation, and geometric analysis.
+nav: recordings
+permalink: /recordings/
+---
+<section class="talks-hero" aria-labelledby="recordings-title">
+  <h1 id="recordings-title">Recordings</h1>
+  <p>Recordings of research talks and lecture series.</p>
+</section>
+<ul class="talk-list" role="list">
+  {% for talk in site.data.talks %}
+  <li class="talk">
+    <div class="talk-date"><span class="talk-year">{{ talk.year }}</span>{% if talk.date %}<span>{{ talk.date }}</span>{% endif %}</div>
+    <div class="talk-body">
+      <p class="eyebrow">{{ talk.type }}</p>
+      <h2>{{ talk.title }}</h2>
+      {% if talk.collaborator %}<p class="talk-collaborator">{{ talk.collaborator }}</p>{% endif %}
+      <p class="talk-venue">{{ talk.venue }}</p>
+      <div class="talk-recordings" aria-label="Recordings: {{ talk.title | escape }}">
+        {% for recording in talk.recordings %}<a href="{{ recording.url }}" aria-label="{{ talk.title | escape }}: {{ recording.label }}" target="_blank" rel="noopener noreferrer">{{ recording.label }} <span aria-hidden="true">↗</span></a>{% endfor %}
+      </div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
