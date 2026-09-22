@@ -1,4 +1,13 @@
 # Published entries use the journal year and length. Preprints use the first arXiv year and current PDF length.
+- title: "White’s cone over the Möbius band is area-minimising"
+  authors: "With Davide Parise"
+  arxiv: "2609.24909"
+  year: 2026
+  pages: 14
+  image: "/assets/images/papers/sudanese-views.gif"
+  image_static: "/assets/images/papers/sudanese/view-1.png"
+  image_alt: "Three centered views of a blue surface with an orange boundary, fading from one angle to the next."
+  image_note: "Animation made from the three views supplied by the author."
 - title: "Integral curvature estimates and geodesic limits for stable abelian Higgs fields"
   authors: "With Marco Badran and Aria Halavati"
   note: "Proof discovered with AI assistance; checked and rewritten by the authors."
